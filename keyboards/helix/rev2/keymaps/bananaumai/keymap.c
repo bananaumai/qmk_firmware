@@ -127,7 +127,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * ,-----------------------------------------.             ,-----------------------------------------.
    * |   ~  |   !  |   7  |   8  |   9  |   %  |             |  (  |    )  |PageUp|PageUp|PageUp|      |
    * |------+------+------+------+------+------|             |------+------+------+------+------+------|
-   * |   ~  |   +  |   4  |   5  |   6  |   /  |             |  [   |   ]  |  Up  |PageDn|PageDn|      |
+   * |   ~  |   +  |   4  |   5  |   6  |   /  |             |  [   |   ]  |  Up  |Enter |PageDn|      |
    * |------+------+------+------+------+------|             |------+------+------+------+------+------|
    * |      |   -  |   1  |   2  |   3  |   *  |             | Home | Left | Down | Right| End  |      |
    * |------+------+------+------+------+------+------+------+------+------+------+------+------+------|
@@ -138,7 +138,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    */
   [_LOWER] = LAYOUT( \
       KC_TILD, KC_EXLM, KC_7,    KC_8,    KC_9,    KC_PERC,                   KC_LPRN, KC_RPRN, KC_PGUP, KC_PGUP, KC_PGUP, _______, \
-      KC_TILD, KC_PLUS, KC_4,    KC_5,    KC_6,    KC_SLSH,                   KC_LBRC, KC_RBRC, KC_UP,   KC_PGDN, KC_PGDN, _______, \
+      KC_TILD, KC_PLUS, KC_4,    KC_5,    KC_6,    KC_SLSH,                   KC_LBRC, KC_RBRC, KC_UP,   KC_ENT,  KC_PGDN, _______, \
       _______, KC_MINS, KC_1,    KC_2,    KC_3,    KC_ASTR,                   KC_HOME, KC_LEFT, KC_DOWN, KC_RGHT, KC_END,  _______, \
       _______, _______, KC_EQL,  KC_0,    KC_DOT,  _______,  KC_LGUI, KC_RGUI, KC_LCBR, KC_RCBR, KC_PGDN, _______, _______, _______, \
       _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______  \
